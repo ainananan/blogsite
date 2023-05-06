@@ -106,6 +106,19 @@ img {
   margin: 10px 0px 15px 0px;
 }
 
+.article-title-link {
+  font-size: 24px;
+  margin: 10px 0px 15px 0px;
+}
+
+.meta li {
+  margin-right: 20px;
+}
+
+.meta li a {
+  font-size: 14px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -137,11 +150,16 @@ main article .text {
 
 .aside {
   width: 31%;
+  padding: 20px;
 }
 
 .aside .profile {
   margin-bottom: 60px;
-  text-align: center;
+}
+
+.aside .profile-pic {
+  display: block;
+  margin: 0 auto;
 }
 
 .aside .profile .text {
@@ -158,11 +176,19 @@ main article .text {
 .aside .side-title {
   margin-bottom: 30px;
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.aside .side-title .text {
+  text-align: left;
 }
 
-aside h4 {
-  font-weight: normal;
-  margin-bottom: 20px;
+.ranking {
+  margin-bottom: 60px;
+}
+.ranking .ranking-description {
+  font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .archive li {
@@ -185,8 +211,7 @@ aside h4 {
 .footer .content {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 16px 50px 16px;
 }
 
 .footer .item {
@@ -218,7 +243,7 @@ aside h4 {
 .footer .copyright {
   font-size: 12px;
   text-align: center;
-  padding-bottom: 10px 0;
+  padding: 10px 0;
 }
 
 .footer ul.about-list .arrow {
